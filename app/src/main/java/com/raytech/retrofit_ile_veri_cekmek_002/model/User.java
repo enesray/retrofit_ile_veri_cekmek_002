@@ -24,7 +24,7 @@ public class User {
     @SerializedName("address")
     @Expose
     //adress classı ile ilişkilendirilir.
-    private Adress address;
+    private Address address;
 
     @SerializedName("phone")
     @Expose
@@ -56,7 +56,7 @@ public class User {
         return email;
     }
 
-    public Adress getAddress() {
+    public Address getAddress() {
         return address;
     }
 

@@ -3,7 +3,7 @@ package com.raytech.retrofit_ile_veri_cekmek_002.model;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class Adress {
+public class Address {
     @SerializedName("street")
     @Expose
     private String street;
